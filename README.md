@@ -43,7 +43,14 @@ frames by hand for training ST-GCN model.
 ```
     python main.py ${video file or camera source}
 ```
-
+using camera0 
+```
+    python main.py -C 0
+```
+using video
+```
+    python main.py -C 1.mp4
+```
 ## Reference
 
 - AlphaPose : https://github.com/Amanbhandula/AlphaPose
